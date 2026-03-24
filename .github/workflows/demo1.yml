@@ -38,4 +38,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy
+        working-directory: .
         run: echo "Deploying..."
