@@ -49,6 +49,7 @@ jobs:
         working-directory: .
         run: ls -R
       - name: Output filename
+        working-directory: .
         run: echo "${{ needs.build.outputs.script-file }}"
 
       - name: Deploy
